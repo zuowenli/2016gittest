@@ -1,0 +1,408 @@
+    1  D:
+    2  cd E
+    3  ll
+    4  ll
+    5  cd appservice/
+    6  ll
+    7  ll
+    8  ll
+    9  cd app
+   10  cd appservice/
+   11  ll
+   12  cd branches/
+   13  ll
+   14  ls
+   15  cd appserver/
+   16  ls
+   17  cd controllers
+   18  ll
+   19  cd api/
+   20  ll
+   21  cd ../
+   22  ll
+   23  cd increment/
+   24  ll
+   25  vi center.php 
+   26  git config --global user.name "zuowenli"
+   27  git config --global user.email "15910631520@163.com"
+   28  Administrator@YR150413-ILJH MINGW64 /e/git_test (master)
+   29  $
+   30  git clone https://github.com/zuowenli/2016gittest.git
+   31  ls
+   32  ll
+   33  cd 2016gittest/
+   34  ll
+   35  ll
+   36  git add -A
+   37  git commit -m"熟悉一下git的流程"
+   38  git push origin master
+   39  git push origin master
+   40  git log
+   41  git update text.html
+   42  git --help
+   43  git status
+   44  git diff
+   45  git diff
+   46  git clone https://github.com/zuowenli/2016gittest.git
+   47  git remote add origin https://github.com/zuowenli/2016gittest.git
+   48  git push -u origin master
+   49  git push -u origin master
+   50  git diff
+   51  git push origin master
+   52  git push origin master
+   53  ll
+   54  ls
+   55  git add -A
+   56  git commit -m"破玩意"
+   57  git push origin master
+   58  push origin master
+   59  git push origin master
+   60  git clone https://github.com/zuowenli/2016gittest.git
+   61  git add -A
+   62  ll
+   63  cd 2016gittest/
+   64  ll
+   65  git add -A
+   66  git commit -m"、死破玩意"
+   67  git push origin master
+   68  cd D
+   69  cd /d
+   70  git clone https://github.com/zuowneli2/2016gittest.git
+   71  ll
+   72  cd 2016gittest/
+   73  ll
+   74  git add -A
+   75  git commit -m"小号测试"
+   76  git push origin master
+   77  git push origin master
+   78  echo 1 > index.html
+   79  echo 2 >> index.html
+   80  cat index.html
+   81  echo 3 > index.html
+   82  cat index.html
+   83  echo 78 >> index.html
+   84  ll
+   85  cat index.html
+   86  git checkout 
+   87  git add index.html
+   88  git commit -m"继续测试"
+   89  git log
+   90  git log
+   91  ls
+   92  ll
+   93  ll
+   94  git status
+   95  touch a.html
+   96  ll
+   97  git status
+   98  git add a.html
+   99  git status
+  100  git commit -m"练习而已" 
+  101  git status
+  102  ll
+  103  cat test2.txt 
+  104  cat test.txt 
+  105  echo 1 >test.html
+  106  cat test.html 
+  107  git add test.html
+  108  git status
+  109  git commit -m"练习"
+  110  git status
+  111  ll -al
+  112  git diff
+  113  git diff text.html
+  114  echo zuowenli >> test.html
+  115  cat test.html
+  116  git log
+  117  git log --online --graph
+  118  git log --oneline --graph
+  119  git log --oneline --graph
+  120  git status
+  121  git add test.html
+  122  git status
+  123  git commit -m"那就再添加一下" test.html
+  124  git log --oneline --graph
+  125  git branch
+  126  git checkout -b test
+  127  git branch
+  128  git checkout master
+  129  git branch
+  130  git show master
+  131  git branch
+  132  echo ceshiceshi >> test.html
+  133  git commit -a
+  134  git status
+  135  git add test.html
+  136  git status
+  137  git commit -m"咋怎么费劲呢"
+  138  git status
+  139  git status
+  140  ll
+  141  git log --oneline --graph
+  142  git log
+  143  git
+  144  git log --oneling --graph
+  145  git log --oneline --graph
+  146  cat test.html
+  147  git branch\
+  148  git branch
+  149  git checkout test
+  150  cd 2016gittest/
+  151  ll
+  152  doskey /history
+  153  git log --oneline --graph --decorate --all
+  154  git branch'
+  155  exit
+  156  git branch
+  157  git log --oneline --graph --decorate --all
+  158  git checkout master
+  159  git branch
+  160  git log --oneline --graph --decorate --all
+  161  git checkout -b zuowenli 
+  162  git branch
+  163  git log --oneline --graph --decorate --all
+  164  git branch
+  165  git checkout test
+  166  git checkout -b jiajia
+  167  git log --online --graph --decorate --all
+  168  git log --oneline --graph --decorate --all
+  169  git branch wowo
+  170  git log --oneline --graph --decorate --all
+  171  echo zuowenli > zuowenli.html
+  172  git status
+  173  git add zuowenli.html
+  174  git status
+  175  git commit -m"先添加一个做测试"
+  176  git status
+  177  git merge jiajia 
+  178  git branch
+  179  git checkout wowo
+  180  git branch
+  181  echo zuowenli2 >> zuowenli.html
+  182  git add zuowenli.html
+  183  git status
+  184  git commmit zuowenli.html
+  185  git commmit -m"联系" zuowenli.html
+  186  git status
+  187  git commit -m "测试一下"
+  188  git status
+  189  git merge wowo
+  190  echo zuowenli >> zuowenli.html
+  191  git add zuowenli.html
+  192  git status
+  193  git commit -m"上次测试失败，再试一次"
+  194  git status
+  195  git status
+  196  git merge wowo
+  197  git merge master
+  198  git log --oneline --graph --decorate --all
+  199  git checkout master
+  200  git log --oneline --graph --decorate --all
+  201  git branch
+  202  git log --oneline --graph --decorate --all
+  203  git status
+  204  git branch
+  205  git checkout test
+  206  ls
+  207  git checkout wowo
+  208  ll
+  209  ls
+  210  git merge test
+  211  git checkout test
+  212  ll
+  213  ls
+  214  git merge test
+  215  ll
+  216  ls
+  217  git merge master
+  218  ls
+  219  git checkout master
+  220  ls
+  221  git branch
+  222  git checkout jiajia
+  223  ll
+  224  ls
+  225  cat zuowenli.html 
+  226  git checkout wowo
+  227  cat zuowenli.html 
+  228  git merge wowo
+  229  ll
+  230  los
+  231  ls
+  232  cat zuowenli.html 
+  233  git merge master
+  234  git checkout master
+  235  ls
+  236  git branch
+  237  git merge master wowo
+  238  ll
+  239  cat zuowenli.html 
+  240  git merge test master
+  241  ls
+  242  git checkout test
+  243  ls
+  244  git merge test master
+  245  ll
+  246  ls
+  247  cat zuowenli.html
+  248  git checkout wowo
+  249  ls
+  250  echo ceshi >> zuowenli.html
+  251  cat zuowenli.html 
+  252  git checkout test
+  253  ls
+  254  cat zuowenli.html 
+  255  git checkout master
+  256  git branch
+  257  ls
+  258  cat zuowenli.html 
+  259  git checkout jiajia
+  260  git branch
+  261  git checkout jiajia
+  262  git checkout jiajia
+  263  git merge jiajia master
+  264  git merge master jiajia
+  265  git status
+  266  git add zuowenli.html 
+  267  git status
+  268  git commit -m"add zuowenli.html"
+  269  git status
+  270  git checkout jiajia
+  271  ls
+  272  cat zuowenli.html 
+  273  git merge jiajia
+  274  ll
+  275  ls
+  276  cat zuowenli.html 
+  277  git merge jiajia master
+  278  ls
+  279  cat zuowenli.html 
+  280  git rebase -i master
+  281  git branch
+  282  git branch
+  283  git add zuowenli.html 
+  284  git commit -m"解决冲突"
+  285  git checkout master
+  286  git branch
+  287  git merge jiajia
+  288  ls
+  289  cat zuowenli.html 
+  290  git branch
+  291  git wowo
+  292  git checkout wowo
+  293  git branch
+  294  git merge jiajia
+  295  ls
+  296  catzuoweni
+  297  cat zuowenli.html 
+  298  git branch
+  299  echo wowo >> zuowenli.html 
+  300  git stash
+  301  git statua
+  302  git status
+  303  ls
+  304  cat zuowenli.html 
+  305  echo wowo >> zuowenli.html 
+  306  cat zuowenli.html 
+  307  git status
+  308  git add zuowenli.html 
+  309  git commit -m"update zuowenli.html"
+  310  git stash
+  311  git stash zuowenli.html
+  312  git status
+  313  git log
+  314  git stash list
+  315  git stash list
+  316  git stash apply stash@{0}
+  317  git stash list
+  318  git stash clear
+  319  git stash list
+  320  git tag
+  321  git tag v1.0
+  322  git tag
+  323  git show v1.0
+  324  ll
+  325  git branch
+  326  git branch
+  327  git log --oneline --graph --decorate --all
+  328  git log --oneline --graph 
+  329  git log
+  330  git status
+  331  mll
+  332  ll
+  333  mkdir bb.html
+  334  ll
+  335  rm -rf bb.html
+  336  ll
+  337  rm -rf bb.html
+  338  ll
+  339  mkdir bb.htmt
+  340  ll
+  341  rm -rf bb.htmt
+  342  ll
+  343  mkdir bb.html
+  344  ll
+  345  vi bb.html/
+  346  cd ll
+  347  ll
+  348  git status
+  349  git add bb.html
+  350  git status
+  351  git branch
+  352  ll
+  353  rm -rf bb.html
+  354  ll
+  355  git status
+  356  git log
+  357  g
+  358  git log --oneline --graph --decorate --all
+  359  git log --oneline --graph
+  360  git checkout master
+  361  git branch
+  362  git merge wowo 
+  363  ll
+  364  touch aa.html
+  365  ll
+  366  git status
+  367  git add aa.html
+  368  git status
+  369* git commit -m" 增加aa.html"、
+  370  git status
+  371  ll
+  372  git checkout wowo
+  373  ll
+  374  git merge master
+  375  ll
+  376  git log
+  377  git log --oneline --graph'
+
+
+  378  git log --oneline --graph
+  379  git log --oneline --graph --decorate 
+  380  git log --oneline --graph --decorate --all
+  381  history
+  382  historu
+  383  history
+  384  git branch
+  385  ]ll
+  386  ll
+  387  echo test.html
+  388  git status
+  389  git status
+  390  echo test >> aa.html 
+  391  git status
+  392  git add aa.html 
+  393  git commit -m"测试合并" 
+  394  cat aa.html 
+  395  git checkout master 
+  396  ll
+  397  cat aa.html 
+  398  git merge wowo
+  399  cat aa.html 
+  400  ll
+  401  git branch
+  402  git push origin master
+  403  git push origin master
+  404  git push origin master
+  405  git push origin master
+  406  history >> query.log
